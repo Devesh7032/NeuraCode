@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+@import "./styles/theme.css";
+@import "./styles/components.css";
+
+@theme {
+  --color-dark-deep: var(--nc-bg);
+  --color-dark: var(--nc-surface);
+  --color-dark-panel: var(--nc-surface-2);
+  --color-dark-card: var(--nc-card);
+  --color-dark-editor: var(--nc-editor);
+  --color-dark-console: var(--nc-console);
+  --color-dark-header: #10130F;
+  --color-dark-sidebar: #0C100D;
+  
+  --color-dark-border: var(--nc-border);
+  --color-dark-muted: var(--nc-text-muted);
+  --color-dark-textMuted: var(--nc-text-dark);
+  
+  --color-brand: var(--nc-cyan);
+  --color-brand-light: var(--nc-cyan);
+  --color-brand-dark: #0FA3BA;
+  --color-brand-cyan: var(--nc-cyan);
+  --color-brand-blue: var(--nc-blue);
+  --color-brand-pink: var(--nc-pink);
+  --color-brand-yellow: var(--nc-yellow);
+  --color-brand-green: var(--nc-green);
+  --color-brand-red: var(--nc-red);
+
+  --color-accent-blue: var(--nc-blue);
+  --color-accent-purple: var(--nc-pink);
+  --color-accent-orange: var(--nc-yellow);
+}

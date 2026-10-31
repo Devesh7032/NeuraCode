@@ -1,0 +1,23 @@
+:root {
+  --nc-bg: #050807;          /* Body background with green/olive undertones */
+  --nc-surface: #0B120F;     /* Header background */
+  --nc-surface-2: #080F0C;   /* Sidebar background */
+  --nc-panel: #09100D;       /* Workspace problem panel background */
+  --nc-card: #0C1410;        /* Workspace cards background */
+  --nc-editor: #101315;      /* Monaco editor background */
+  --nc-console: #070C0A;     /* Console background */
+
+  --nc-border: #1C2922;      /* Normal IDE border */
+  --nc-border-active: #12DFFF;/* Active border accent (Cyan) */
+  
+  --nc-text: #E8EEE9;        /* Bright primary text */
+  --nc-text-muted: #8B958E;  /* Secondary text / gray-green */
+  --nc-text-dark: #59635D;   /* Muted technical labels */
+
+  --nc-cyan: #12DFFF;        /* Primary accent (active tabs, graphs) */
+  --nc-blue: #2FA8FF;        /* Secondary data links / visualization */
+  --nc-green: #00E58A;       /* Accepted/solved states / Submit button */
+  --nc-yellow: #FFD84D;      /* Warning / Streaks / Markers */
+  --nc-pink: #FF4FA3;        /* Magenta / secondary visualization */
+  --nc-red: #FF4F5E;         /* Error state */
+}

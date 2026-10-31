@@ -1,0 +1,11 @@
+@utility glass-panel {
+  background-color: var(--nc-card);
+  border: 1px solid var(--nc-border);
+  border-radius: 4px;
+}
+
+@utility text-gradient {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, var(--nc-cyan), var(--nc-blue));
+}

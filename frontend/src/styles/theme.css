@@ -1,0 +1,25 @@
+@layer base {
+  body {
+    background-color: var(--nc-bg);
+    color: var(--nc-text);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Custom dark scrollbars with olive undertones */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: var(--nc-console);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--nc-border);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--nc-text-dark);
+  }
+}
